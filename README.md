@@ -54,4 +54,14 @@ We will evaluate you on your ability to solve the problem defined in the require
 If you have any questions regarding requirements, do not hesitate to email your contact at theScore for clarification.
 
 ### Installation and running this solution
-... TODO
+1. Clone the repo `git clone https://github.com/mtrepanier/nfl-rushing.git && cd ./nfl-rushing` 
+2. Build the project - `make build`
+3. Seed the database - `make seed_db`
+4. Compile webpack - `make webpack_compile`
+5. Start the project - `make start`
+6. Stop the project - `make stop`
+
+### Maintenance
+#### Rubocop
+For code cleanup and formatter
+* make cleanup
